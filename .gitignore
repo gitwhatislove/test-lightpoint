@@ -1,6 +1,3 @@
-public/*
-!public/index.html
-!public/json
 node_modules/*
 npm-debug.log
 .idea/*

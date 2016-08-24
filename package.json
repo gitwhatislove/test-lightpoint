@@ -8,7 +8,7 @@
     "start": "gulp",
     "unit-tests": "karma start app/config/tests/karma.conf.js"
   },
-  "author": "Skoda",
+  "author": "test",
   "license": "Proprietary",
   "devDependencies": {
     "gulp-rename": "^1.2.2",
