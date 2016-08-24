@@ -1,0 +1,29 @@
+<section class='list add text-center'>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-6">
+    			<h3>Данные магазина</h3>
+				<input type="text" ng-model = 'ctrl.addShop.name' placeholder='Название магазина'>
+				<input type="text" ng-model = 'ctrl.addShop.time' placeholder='Время работы'>
+				<input type="text" ng-model = 'ctrl.addShop.adress' placeholder='Адрес'>
+				<button ng-click="ctrl.pushShop()" class="btn_green btn_add">Создать магазин</button>
+				
+				<h3>Добавить товары</h3>
+				<input type="text" ng-model = 'ctrl.addProduct.name'  placeholder='Название товара'>
+				<textarea type="text" ng-model = 'ctrl.addProduct.description' placeholder='Описание товара'></textarea>
+				<button ng-click="ctrl.pushProduct()" class="btn_green">Добавить товар</button>
+    		</div>
+    		<div class="col-md-6">
+    			<h3>Добавленные товары:</h3>
+				<div class="text-left show_add" ng-repeat="product in ctrl.addShop.products">
+					<p ng-bind="'Название: '+product.name"></p>
+					<p ng-bind="'Описание: '+product.description"></p>
+				</div>
+    		</div>
+    	</div>
+    </div>
+	
+
+	
+</section>
+

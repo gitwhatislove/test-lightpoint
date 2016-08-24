@@ -1,0 +1,38 @@
+<section class='wrapper_shops'>
+	<div class="container-fluid">
+		<div class="row" >
+			<div class="col-md-12 text-center " style="height: 38px;">
+				<button class="btn_green btn_save" ng-show="ctrl.showBtnSave" ng-click="ctrl.saveSort()">Сохранить порядок</button>
+			</div>
+		</div>
+
+		<div class="row" ng-sortable="{group: 'ng', animated: 100}">
+			<div class="col-md-6" ng-repeat="shop in ctrl.shops" ng-mousedown="ctrl.update()" ng-mouseleave="ctrl.saveSort()">
+				<div class="shop" >
+				<p ng-bind = '$index+1' class="index" >Порядковый номер</p>
+				<h3 ng-bind = 'shop.name' class="text-center"></h3>
+				<p ng-bind = '"Адрес: "+shop.adress'>Адрес</p>
+				<p ng-bind = '"Время работы: " + shop.time' >Режим работы</p>
+				<p class="text-center show">
+					<a href="" ui-sref='dashboard.list({ id: shop.id })'>Посмотреть товары</a>
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <ul ng-sortable="{group: 'ng', animated: 100}">
+    <li ng-repeat="item in firstList">{{item}}</li>
+  	</ul> -->
+	<!-- <div class="wrapper_shops">
+		<div class="shop" ng-repeat="shop in ctrl.shops">
+			<p ng-bind = '$index+1' class="index">Порядковый номер</p>
+			<h3 ng-bind = 'shop.name' class="text-center"></h3>
+			<p ng-bind = '"Адрес: "+shop.adress'>Адрес</p>
+			<p ng-bind = '"Время работы: " + shop.time' >Режим работы</p>
+			<p class="text-center show">
+				<a href="" ui-sref='dashboard.list({ id: shop.id })'>Посмотреть товары</a>
+			</p>
+		</div>
+	</div> -->
+</section>
+

@@ -1,0 +1,43 @@
+[{
+    "id": 1,
+    "name": "Магазин Одежды",
+    "adress": "Москва ул. Тверска д.8",
+    "time": "с 10:00 до 20:00",
+    "products": [{
+        "name": "Товар 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }]
+}, {
+    "id": 2,
+    "name": "Магазин Продуктов",
+    "adress": "Минск пр. Держинского д. 26",
+    "time": "с 8:00 до 20:00",
+    "products": [{
+        "name": "Товар 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }, {
+        "name": "Товар 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloremque laudantium expedita qui aspernatur porro eum aliquam odit consequatur excepturi natus sit quod ab cumque eius nihil animi beatae, ex."
+    }]
+}]
